@@ -1,3 +1,12 @@
+"""
+Fuzzy Colony
+
+Application of Fuzzy maths for honey bee colony health estimation
+"""
+
+__author__ = 'Trevor Stanhope'
+__version__ = 0.1
+
 import skfuzzy
 import sklearn
 
