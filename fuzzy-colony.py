@@ -14,8 +14,14 @@ class Colony:
 
     def __init__(self, config):
         self.config = config
+    
+    # Add point to set
+    def add_point(self, point):
+        self.pts.append(point)
+    
+    # Find estimator for a parameter
+    def estimate_param(self, param):
         
-    def estimate_health(self):
         return 
 
 if __name__ == '__main__':
@@ -39,3 +45,4 @@ if __name__ == '__main__':
         }
     }
     test = Colony(config)
+    test.add
